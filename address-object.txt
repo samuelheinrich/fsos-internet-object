@@ -1,0 +1,242 @@
+config firewall address
+    edit "INET_0.0.0.0/5"
+        set subnet 0.0.0.0 248.0.0.0
+    next
+    edit "INET_8.0.0.0/7"
+        set subnet 8.0.0.0 254.0.0.0
+    next
+    edit "INET_11.0.0.0/8"
+        set subnet 11.0.0.0 255.0.0.0
+    next
+    edit "INET_12.0.0.0/6"
+        set subnet 12.0.0.0 252.0.0.0
+    next
+    edit "INET_16.0.0.0/4"
+        set subnet 16.0.0.0 240.0.0.0
+    next
+    edit "INET_32.0.0.0/3"
+        set subnet 32.0.0.0 224.0.0.0
+    next
+    edit "INET_64.0.0.0/2"
+        set subnet 64.0.0.0 192.0.0.0
+    next
+    edit "INET_128.0.0.0/3"
+        set subnet 128.0.0.0 224.0.0.0
+    next
+    edit "INET_160.0.0.0/5"
+        set subnet 160.0.0.0 248.0.0.0
+    next
+    edit "INET_168.0.0.0/6"
+        set subnet 168.0.0.0 252.0.0.0
+    next
+    edit "INET_172.0.0.0/12"
+        set subnet 172.0.0.0 255.240.0.0
+    next
+    edit "INET_172.32.0.0/11"
+        set subnet 172.32.0.0 255.240.0.0
+    next
+    edit "INET_172.64.0.0/10"
+        set subnet 172.64.0.0 255.192.0.0
+    next
+    edit "INET_172.128.0.0/9"
+        set subnet 172.128.0.0 255.128.0.0
+    next
+    edit "INET_173.0.0.0/8"
+        set subnet 173.0.0.0 255.0.0.0
+    next
+    edit "INET_174.0.0.0/7"
+        set subnet 174.0.0.0 254.0.0.0
+    next
+    edit "INET_176.0.0.0/4"
+        set subnet 176.0.0.0 240.0.0.0
+    next
+    edit "INET_192.128.0.0/11"
+        set subnet 192.128.0.0 255.224.0.0
+    next
+    edit "INET_192.160.0.0/13"
+        set subnet 192.160.0.0 255.248.0.0
+    next
+    edit "INET_192.169.0.0/16"
+        set subnet 192.169.0.0 255.255.0.0
+    next
+    edit "INET_192.170.0.0/15"
+        set subnet 192.170.0.0 255.254.0.0
+    next
+    edit "INET_192.172.0.0/14"
+        set subnet 192.172.0.0 255.252.0.0
+    next
+    edit "INET_192.176.0.0/12"
+        set subnet 192.176.0.0 255.240.0.0
+    next
+    edit "INET_192.192.0.0/10"
+        set subnet 192.192.0.0 255.192.0.0
+    next
+    edit "INET_192.0.0.0/23"
+        set subnet 192.0.0.0 255.255.254.0
+    next
+    edit "INET_192.0.3.0/24"
+        set subnet 192.0.3.0 255.255.255.0
+    next
+    edit "INET_192.0.4.0/22"
+        set subnet 192.0.4.0 255.255.252.0
+    next
+    edit "INET_192.0.8.0/21"
+        set subnet 192.0.8.0 255.255.248.0
+    next
+    edit "INET_192.0.16.0/20"
+        set subnet 192.0.16.0 255.255.240.0
+    next
+    edit "INET_192.0.32.0/19"
+        set subnet 192.0.32.0 255.255.224.0
+    next
+    edit "INET_192.0.64.0/18"
+        set subnet 192.0.64.0 255.255.192.0
+    next
+    edit "INET_192.0.128.0/17"
+        set subnet 192.0.128.0 255.255.128.0
+    next
+    edit "INET_192.1.0.0/16"
+        set subnet 192.1.0.0 255.255.0.0
+    next
+    edit "INET_192.2.0.0/15"
+        set subnet 192.2.0.0 255.254.0.0
+    next
+    edit "INET_192.4.0.0/14"
+        set subnet 192.4.0.0 255.252.0.0
+    next
+    edit "INET_192.8.0.0/13"
+        set subnet 192.8.0.0 255.248.0.0
+    next
+    edit "INET_192.16.0.0/12"
+        set subnet 192.16.0.0 255.240.0.0
+    next
+    edit "INET_192.32.0.0/11"
+        set subnet 192.32.0.0 255.224.0.0
+    next
+    edit "INET_192.64.0.0/10"
+        set subnet 192.0.0.0 255.128.0.0
+    next
+    edit "INET_193.0.0.0/8"
+        set subnet 193.0.0.0 255.0.0.0
+    next
+    edit "INET_194.0.0.0/7"
+        set subnet 194.0.0.0 254.0.0.0
+    next
+    edit "INET_196.0.0.0/7"
+        set subnet 196.0.0.0 252.0.0.0
+    next
+    edit "INET_198.0.0.0/11"
+        set subnet 198.0.0.0 255.224.0.0
+    next
+    edit "INET_198.32.0.0/12"
+        set subnet 198.32.0.0 255.240.0.0
+    next
+    edit "INET_198.48.0.0/15"
+        set subnet 198.48.0.0 255.254.0.0
+    next
+    edit "INET_198.50.0.0/16"
+        set subnet 198.50.0.0 255.255.0.0
+    next
+    edit "INET_198.51.0.0/18"
+        set subnet 198.51.0.0 255.255.192.0
+    next
+    edit "INET_198.51.64.0/19"
+        set subnet 198.51.64.0 255.255.224.0
+    next
+    edit "INET_198.51.96.0/22"
+        set subnet 198.51.96.0 255.255.252.0
+    next
+    edit "INET_198.51.101.0/24"
+        set subnet 198.51.101.0 255.255.255.0
+    next
+    edit "INET_198.51.102.0/23"
+        set subnet 198.51.102.0 255.255.254.0
+    next
+    edit "INET_198.51.104.0/21"
+        set subnet 198.51.104.0 255.255.248.0
+    next
+    edit "INET_198.51.112.0/20"
+        set subnet 198.51.112.0 255.255.240.0
+    next
+    edit "INET_198.51.128.0/17"
+        set subnet 198.51.128.0 255.255.128.0
+    next
+    edit "INET_198.52.0.0/14"
+        set subnet 198.52.0.0 255.252.0.0
+    next
+    edit "INET_198.56.0.0/13"
+        set subnet 198.56.0.0 255.248.0.0
+    next
+    edit "INET_198.64.0.0/10"
+        set subnet 198.64.0.0 255.192.0.0
+    next
+    edit "INET_198.128.0.0/9"
+        set subnet 198.128.0.0 255.128.0.0
+    next
+    edit "INET_199.0.0.0/8"
+        set subnet 199.0.0.0 255.0.0.0
+    next
+    edit "INET_200.0.0.0/7"
+        set subnet 200.0.0.0 254.0.0.0
+    next
+    edit "INET_202.0.0.0/8"
+        set subnet 202.0.0.0 255.0.0.0
+    next
+    edit "INET_203.0.0.0/18"
+        set subnet 203.0.0.0 255.255.192.0
+    next
+    edit "INET_203.0.64.0/19"
+        set subnet 203.0.64.0 255.255.224.0
+    next
+    edit "INET_203.0.96.0/20"
+        set subnet 203.0.96.0 255.255.240.0
+    next
+    edit "INET_203.0.112.0/24"
+        set subnet 203.0.112.0 255.255.255.0
+    next
+    edit "INET_203.0.114.0/23"
+        set subnet 203.0.114.0 255.255.254.0
+    next
+    edit "INET_203.0.116.0/22"
+        set subnet 203.0.116.0 255.255.252.0
+    next
+    edit "INET_203.0.120.0/21"
+        set subnet 203.0.120.0 255.255.248.0
+    next
+    edit "INET_203.0.128.0/17"
+        set subnet 203.0.128.0 255.255.128.0
+    next
+    edit "INET_203.1.0.0/16"
+        set subnet 203.1.0.0 255.255.0.0
+    next
+    edit "INET_203.2.0.0/15"
+        set subnet 203.2.0.0 255.254.0.0
+    next
+    edit "INET_203.4.0.0/14"
+        set subnet 203.4.0.0 255.252.0.0
+    next
+    edit "INET_203.8.0.0/13"
+        set subnet 203.8.0.0 255.248.0.0
+    next
+    edit "INET_203.16.0.0/12"
+        set subnet 203.16.0.0 255.240.0.0
+    next
+    edit "INET_203.32.0.0/11"
+        set subnet 203.32.0.0 255.224.0.0
+    next
+    edit "INET_203.64.0.0/10"
+        set subnet 203.64.0.0 255.192.0.0
+    next
+    edit "INET_203.128.0.0/9"
+        set subnet 203.128.0.0 255.128.0.0
+    next
+    edit "INET_204.0.0.0/6"
+        set subnet 204.0.0.0 252.0.0.0
+    next
+    edit "INET_208.0.0.0/4"
+        set subnet 208.0.0.0 240.0.0.0
+    next
+    edit "INET_240.0.0.0/3"
+        set subnet 240.0.0.0 240.0.0.0
+    end
+end

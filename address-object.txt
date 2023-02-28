@@ -239,4 +239,3 @@ config firewall address
     edit "INET_240.0.0.0/3"
         set subnet 240.0.0.0 240.0.0.0
     end
-end

@@ -26,7 +26,8 @@ Leider hat dies im Zusammenhand mit SD-WAN Regeln einen entscheidenen Nachteil, 
 
 Besser wäre es in diesem Fall ein reines „Internet Object“ zu haben, welches die lokalen Subnetze nicht beinhaltet.
 
-![image](https://user-images.githubusercontent.com/16579232/221981933-8203163e-d9ee-4527-a5b7-4179e0a18e8a.png)
+![image](https://user-images.githubusercontent.com/16579232/221983808-0fd41e1a-e531-4894-aac2-148a966e2430.png)
+
 
 
 Wie muss so ein Objekt aussehen?
